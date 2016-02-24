@@ -1,3 +1,62 @@
 @media screen and (min-device-width: 550px) {
 
+  body{
+    font-size: 1.2em;
+  }
+
+  header {
+    height: 80vh;
+    width: 90vw;
+    max-width: 1200;
+    margin: 5em auto;
+    margin-bottom: none;
+  }
+
+  .bio {
+    height: 100%;
+    width: 48%;
+    float: left; 
+    margin-top: 3em;
+    margin: auto;
+  }
+
+  .santiago {
+    height: 100%;
+    width: 48%;
+    float: left; 
+  }
+
+  main {
+    margin: 3em auto;
+    clear: both;
+  }
+  
+  .current {
+    width: 50%;
+    margin: 0 auto 3em;
+  }
+
+  .projects {
+    margin: auto;
+    width: 60%;
+ 
+    img {
+      height: 6em;
+      width: auto;
+    }
+ }
+
+  article {
+    padding: 1em;
+    width: 45%;
+    height: 20em;
+    margin: auto;
+    float: left;
+
+    p {
+      font-size: 1em;
+    }
+  }
+    
 }
+
