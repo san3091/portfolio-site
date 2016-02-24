@@ -1,0 +1,67 @@
+!!!
+%html
+  %head
+    %title Santiago Quintana
+    %meta{ :charset => "UTF-8"}
+    %link{ :rel => "stylesheet", :href => "/scss.css" }
+    %link{ :rel => "stylesheet", :href => "https://fonts.googleapis.com/css?family=Lato" }
+  %body
+    %header
+      .bio
+        .text
+          %h1 Santiago Quintana
+          %h4 Coder // Writer // Thinker
+          %p I'm a junior full stack web developer integrating my training in philosophy and literature to the Miami tech ecosystem.
+        .social
+          %a{ href: "https://github.com/san3091" }
+            .link
+              %img{ src: "images/github.png" }
+          %a{ href: "https://www.linkedin.com/in/santiago-quintana-b56695106" }
+            .link
+              %img{ src: "images/linkedin.png" }
+          %a{ href: "https://twitter.com/San_QG" }
+            .link
+              %img{ src: "images/twitter.gif" }
+          %a{ href: "mailto:santiagoquintanag@gmail.com" }
+            .link
+              %img{ src: "images/mail.png"}
+      .santiago
+        %img{ :src => "images/santiago.svg", :alt => "Santiago hard at work." }
+
+    %main
+      %section{ class: "current" }
+        %h3 What is santiago up to?
+        %p Currently I'm a student at Wyncode Academy web development bootcamp learning Ruby, Rails, JS, and other web technologies.
+      %section{ class: "projects" }
+        %h2 Projects
+        %a{ href: "https://github.com/san3091/bid-aero" }
+          %article
+            %h3 Bid.aero
+            %p Sourcing and procurement platform for aviation parts using a reverse auction model. Wyncode final project built on Ruby on Rails. (in development)
+            %img{ src: "images/aero.svg" }  
+        %a{ href: "https://github.com/san3091/EKO" }
+          %article
+            %h3 EKO
+            %p Video based collaborative project management platform. Built using Ruby on Rails. Inspired by Gina T'ai;s distance dances project.
+            %img{ :src => "images/eko.svg", :alt => "" }
+        %a{ href: "https://github.com/san3091/Battleship" }
+          %article
+            %h3 Battleship
+            %p REPL game of battleship for the command line, first week project at Wyncode.
+            %img{ src: "images/battleship.svg" }
+        %a{ href: "https://twitter.com/WorldWeatherBot" }
+          %article
+            %h3 World Weather Bot
+            %p Simple Twitter-bot tweeting the weather around the world using Yahoo's weather API and Chatterbox
+            %img{ src: "images/weather.svg" }
+        %a{ href: "https://gist.github.com/san3091/ff0df4f729b10e456527" } 
+          %article
+            %h3 Voter Simulator
+            %p Voter and politician registration simulator. Second week project exploring CRUD capabilities.
+            %img{ src: "images/vote.svg" }
+        %a{ href: "http://rascal.im" }
+          %article
+            %h3 The Weekly Rascal
+            %p My blog built using Jekyll and SCSS, where I write all sorts of things.
+            %img{ src: "images/blog.svg" }
+          

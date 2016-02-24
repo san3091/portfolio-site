@@ -1,0 +1,48 @@
+header {
+  width: 100%;
+
+  img {
+    height: 100%;
+    width: auto;
+  }
+}
+
+.santiago {
+  width: 80%; 
+  height: auto; 
+  padding: 1em;
+
+  img {
+    height: auto; 
+    width: 80%; 
+  }
+}
+
+.bio {
+  width: 100%;
+}
+
+.text {
+  margin: 2em;
+}
+
+.social {
+  width: 60%;
+  margin: auto; 
+
+  .link {
+    margin: 0 5%; 
+    display: inline-block;
+    height: 2.1em;
+    overflow: hidden;
+  }
+}
+
+main {
+  margin: 2em;
+}
+
+
+
+
+
